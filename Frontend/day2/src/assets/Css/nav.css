@@ -1,0 +1,72 @@
+ul {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 18px;
+    border-bottom: 2px solid rgb(59, 57, 57);
+    margin: 0;
+    width: calc(100% - 55px); /* Adjusted width to accommodate sidebar symbol */
+    background-color: rgb(52, 15, 215);
+    height: 55px;
+    position: fixed; 
+    top: 0;
+    left: 58px; 
+    z-index: 9995;
+  }
+  
+  .ele, .sele {
+    float: left;
+    margin-left: 15px;
+  }
+  
+  .ele a, .sele a {
+    display: block;
+    margin-left: 10px;
+    color: rgb(50, 182, 20);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  .ele a:hover, .sele a:hover {
+    background-color: rgb(230, 24, 24);
+    color: white;
+  }
+  
+  .sele a {
+    background-color: rgb(194, 23, 23);
+    color: rgb(229, 219, 219);
+  }
+  
+  .accimg {
+    margin-right: 100px;
+    float: right;
+    width: 20px;
+    height: 54px;
+  }
+  
+  .cvv {
+    float: right;
+    display: block;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+  }
+  
+  .cvvv {
+    display: none;
+  }
+  
+  .bor {
+    background-color: rgb(230, 102, 67);
+    border: 1px solid black;
+  }
+  
+  .righ {
+    float: right;
+    margin-right: 30px;
+  }
+  
+  .gg {
+    margin-top: 0px;
+  }
