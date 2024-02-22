@@ -1,0 +1,85 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+.whole {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-image: url("https://res.cloudinary.com/dloadmcdu/image/upload/v1708412765/recharge/rechgt_jpeopa.gif"); 
+  background-repeat: none;
+  height: 199vh;
+  width: 199vh;
+}
+
+
+.form-box {
+  width: 420px;
+  height: auto; /* Adjust height automatically */
+  background: rgba(236, 231, 231, 0.8); /* Add transparency */
+  border: 2px solid rgba(20, 18, 18, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-left: 30%;
+  
+}
+
+.form-box h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px; /* Adjust margin for better spacing */
+}
+
+.input-group {
+  margin-left: -15px;
+  width: 350px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid rgba(15, 2, 2, 0);
+  background: transparent;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #333; /* Change text color for better readability */
+}
+
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px; /* Adjust margin for better spacing */
+  background: #b41c1c;
+  border: none;
+  border-radius: 40px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease; 
+}
+
+.submit-btn:hover {
+  background: #390fd0; 
+}
+
+.signup {
+  text-align: center;
+  margin-top: 30px; 
+}
+
+.signup a {
+  color: #333; 
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+.signup a:hover {
+  color: #2b36b2; 
+}
+
