@@ -1,0 +1,64 @@
+.over{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    background-image: url("https://res.cloudinary.com/dloadmcdu/image/upload/v1708509872/recharge/icon_nv74sn.png"); 
+    /* background-repeat: none; */
+    height: 105vh;
+    width: 110vh;
+}
+
+
+.profile-editing-page {
+    margin-left: 30%;
+    width: 420px;
+    height: auto; 
+    background: rgba(236, 231, 231, 0.8); 
+    border: 2px solid rgba(20, 18, 18, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    padding: 30px 40px;
+  }
+  
+  .profile-editing-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid rgba(15, 2, 2, 0);
+    background: transparent;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #333; 
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:  #b41c1c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  

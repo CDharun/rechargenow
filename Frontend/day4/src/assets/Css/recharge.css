@@ -1,0 +1,101 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .service-tabs {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .service-tabs button {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .service-tabs button:hover {
+    background-color: #e9ecef;
+  }
+  
+  .service-tabs button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .input-field {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-field label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .input-field input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field input:focus {
+    border-color: #007bff;
+  }
+  
+  .input-field button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ec0606;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-field button:hover {
+    background-color: #218838;
+  }
+  
+  .promotional-message {
+    background-color: orange;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-interface {
+    margin-top: 20px;
+  }
+  
+  .app-interface img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* New styles for the container */
+  .container {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 30px;
+    border-radius: 15px;
+  }
