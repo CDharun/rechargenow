@@ -1,0 +1,83 @@
+h2
+{
+  text-align: center;
+  color: rgb(108, 79, 70);
+  font-family: cursive;
+  font-size: large;
+}
+.cardcc {
+    /* border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    height: 90%;
+    width: 30%; */
+    border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  height: 90%;
+  width: calc(30% - 40px);
+  background-image: linear-gradient(to right, rgb(113, 92, 92) , rgb(206, 200, 198));
+  }
+  .cards-containercc 
+  {
+    /* display: flex; */
+    display: flex;
+   flex-wrap: wrap; 
+  justify-content: center; 
+  }
+
+  
+  .cardcc img {
+    /* width: 90%;
+    height: 200px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 15px;
+    margin-top: 10px; */
+    width: 90%;
+  height: 300px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 15px;
+  margin-top: 10px;
+  }
+  
+  .card-contentcc {
+    padding: 10px;
+  }
+  
+  .cardcc h1 {
+    margin-bottom: 8px;
+    font-family: cursive;
+    color: #a07474;
+  }
+  
+  .cardcc p {
+    color: #333;
+  }
+
+  .buttonType
+  {
+       color: yellowgreen;
+  }
+
+  .cardcc button {
+
+    color: rgb(75, 53, 46);
+    background-color: #fff;
+    border: 2px solid rgb(18, 15, 13);
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .cardcc button:hover {
+    background-color: rgb(67, 46, 37);
+    color: #fff;
+  }

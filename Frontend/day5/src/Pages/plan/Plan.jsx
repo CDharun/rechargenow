@@ -1,0 +1,16 @@
+import Plans from "../../Components/Plans";
+import Nav from "../../Components/Nav";
+import Footer from "../../Components/Footer";
+const Plan = () => {
+    return (
+        <div>
+            <Nav/>
+            <br></br>
+            <Plans/>
+            <br></br>
+            <Footer/>
+        </div>
+    );
+}
+
+export default Plan;
