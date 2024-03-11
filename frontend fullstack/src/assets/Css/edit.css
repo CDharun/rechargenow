@@ -1,0 +1,62 @@
+.profile-container {
+  width: 420px;
+  margin-left: 40%;
+  height: auto; /* Adjust height automatically */
+  background: rgba(236, 231, 231, 0.8); /* Add transparency */
+  border: 2px solid rgba(20, 18, 18, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #6b1717;
+  border-radius: 5px;
+}
+
+.btn-edit {
+  background-color: #2980b9; /* Changed to blue */
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-save,
+.btn-cancel {
+  background-color: #3498db; /* Kept blue color consistent */
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-save:hover,
+.btn-cancel:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
